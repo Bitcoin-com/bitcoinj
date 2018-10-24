@@ -138,6 +138,7 @@ public class ScriptOpCodes {
     public static final int OP_HASH256 = 0xaa;
     public static final int OP_CODESEPARATOR = 0xab;
     public static final int OP_CHECKSIG = 0xac;
+    public static final int OP_CHECKDATASIG = 0xba;
     public static final int OP_CHECKSIGVERIFY = 0xad;
     public static final int OP_CHECKMULTISIG = 0xae;
     public static final int OP_CHECKMULTISIGVERIFY = 0xaf;
@@ -261,6 +262,7 @@ public class ScriptOpCodes {
         .put(OP_HASH256, "HASH256")
         .put(OP_CODESEPARATOR, "CODESEPARATOR")
         .put(OP_CHECKSIG, "CHECKSIG")
+        .put(OP_CHECKDATASIG, "CHECKDATASIG")
         .put(OP_CHECKSIGVERIFY, "CHECKSIGVERIFY")
         .put(OP_CHECKMULTISIG, "CHECKMULTISIG")
         .put(OP_CHECKMULTISIGVERIFY, "CHECKMULTISIGVERIFY")
@@ -374,6 +376,7 @@ public class ScriptOpCodes {
         .put("HASH256", OP_HASH256)
         .put("CODESEPARATOR", OP_CODESEPARATOR)
         .put("CHECKSIG", OP_CHECKSIG)
+        .put("CHECKDATASIG", OP_CHECKDATASIG)
         .put("CHECKSIGVERIFY", OP_CHECKSIGVERIFY)
         .put("CHECKMULTISIG", OP_CHECKMULTISIG)
         .put("CHECKMULTISIGVERIFY", OP_CHECKMULTISIGVERIFY)
